@@ -27,16 +27,16 @@ p{font-family: 'Rubik';font-weight:200;}
 
 
 /* md */
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 1200px) {
     body {
-        font-size: 0.7em;
+        font-size: 0.9em;
          
     }
     .display-5{font-size:1.5em;font-weight:300}
         .display-3{font-size:1.5em;}
-        .display-6{font-size:1em;font-weight:300}
+        .display-6{font-size:1.5em;font-weight:300}
         .mainTitle{font-size:6em;}
-        .footText{font-size:15px}
+        .footText{font-size:10px}
     }
 
 
