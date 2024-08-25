@@ -1,0 +1,28 @@
+h1{font-family: 'Rubik'}
+body{background-color: #210059;}
+.abdnBanner{background-color:#210059}
+.accLink:hover{text-decoration: underline; color:white;}
+.accLink{color:white; text-decoration:none;}
+.mapLink{color:#210059; text-decoration:none;}
+.mapLink:hover{color: #210059; text-decoration: none;box-shadow: 5px 5px #0000002a;} 
+nav{color:white;}
+.headerCaption{background: linear-gradient(to top, #210059, rgba(0,0,0,0) 100%);}
+a{font-family:"Rubik";text-decoration:none;color:#EE55A6;}
+a:hover{font-family:"Rubik";text-decoration:underline;color:#EE55A6}
+.noHover:hover{text-decoration:none;}
+li{font-family: 'Rubik';font-size:1.4rem}
+.transURL{text-decoration:none;}
+p{font-family: 'Rubik';font-size:1.4rem; text-align: justify;}
+.mainTitle{font-size:6rem;}
+.footText{font-size:15px}
+.iconBar:hover{text-decoration:none;}
+.imgCap{font-family:"Rubik";text-decoration:none;color:#210059;}
+.capLink{font-family:"Rubik";text-decoration:none;color:#210059}
+.mainLink{font-family: 'Rubik';font-size:1.4em;font-weight: bold;color:#210059;}
+.mainLink:hover{font-family: 'Rubik';font-size:1.4em;font-weight: bold;color:#210059;text-decoration: underline;}
+.textShadow{text-shadow: 5px 5px 10px black;}
+img{max-width:100%;width:100%;}
+#navColour{background-color: #210059;}
+#accLogo{height:40px;width:45px;}
+p{font-size:2em;}
+li{font-size:1.5em}
