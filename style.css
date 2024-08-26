@@ -43,7 +43,16 @@ p{font-family: 'Rubik';font-weight:200;}
         .navText{font-size:1.2em;font-weight:500}
         .large{font-size:2em;font-weight:500;}
     .veryLarge{font-size:3em;font-weight:500}
-    }
+    
+
+    .lg-view{
+        display:inline-block;
+     }
+     
+     .sm-view{
+        display:none;
+     }
+ }
 
 
 /* lg */
@@ -63,4 +72,25 @@ p{font-family: 'Rubik';font-weight:200;}
     .large{font-size:3em;font-weight:500;}
     .veryLarge{font-size:5em;font-weight:500}
 
-}
+    
+     .lg-view{
+        display:inline-block;
+     }
+     
+     .sm-view{
+        display:none;
+     }
+ }
+
+
+ /* xs */
+ @media screen and (max-width: 576px) {
+    
+     .lg-view{
+        display:none;
+     }
+     
+     .sm-view{
+        display:inline-block;
+     }
+ }
