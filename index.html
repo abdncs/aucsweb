@@ -16,22 +16,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div style="background-color: #360285;min-height:6vh;"> <!-- Main header including image-->
+<!-- <div style="background-color: #360285;min-height:6vh;">
   <h1 class="display-1 pt-md-3 pt-sm-1 pt-2 pb-0 text-white text-center mainTitle mb-0" style="font-weight:bolder">AUCS</h1>
   <p class="display-6 pb-3 text-white text-center">Aberdeen University Computing Society</p>
-</div>
-<div class="abdnBanner container-fluid" style="min-height:5vh"> 
+</div> -->
+<div class="abdntopBanner container-fluid shadow-lg" style="min-height:5vh"> 
   <div class="row">
     <div class="col-xl-2"></div>
     <div class="col-sm-12 col-xl-8">
-        <nav class="navbar navbar-expand-sm p-2 pt-0"  id="navColour">
+        <nav class="navbar navbar-expand-sm p-2 "  id="navColour">
           <div class="container-fluid p-0 m-0">
-              <button class="navbar-toggler navbar-light shadow-none" style="border-color:rgba(255, 255, 255, 0)!important;" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Expand Navigation">
+            <button class="navbar-toggler navbar-light shadow-none" style="border-color:rgba(255, 255, 255, 0)!important;" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Expand Navigation">
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-list" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                 </svg>
               </button>
-              <div class="collapse navbar-collapse" id="nav">
+              <p class="nav-link text-white navText p-0 pt-3 pe-sm-3 " style="word-wrap:break-word;" >Aberdeen University Computing Society</p>
+              <div class="collapse navbar-collapse ps-2" id="nav" style="border-left: solid #EE55A6;">
                   <ul class="navbar-nav">
                     <li class="nav-item">
                       <a class="nav-link text-white" href="">Homepage</a>
@@ -48,8 +49,9 @@
                   </ul>
               </div>
             </div>
+            
         </nav>
-          </div>
+               </div>
       <div class="col-xl-2"></div>
   </div>
 </div>
@@ -57,7 +59,7 @@
 <div class="bg-light " style="min-height:75vh;"> <!-- Main website content-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xl-2"></div>
+      <!--<div class="col-xl-2"></div>
       <div class="col-sm-12 col-xl-8 shadow-lg p-0 mt-0 bg-white" style="min-height:80vh;">
         <div class="bg-image  position-absoloute top-0 start-0" style="background-image: url(res/RiceSquare.png);background-repeat:no-repeat;background-position: center;background-size: cover;border-bottom: solid #EE55A6;min-height:50vh;overflow:hidden;">
           <div style="background: linear-gradient(to top, #EE55A6, #21005946 100%);min-height:45vh;padding-bottom:10px;">
@@ -80,12 +82,30 @@
             </div>
           </div>
 
+        </div>-->
+        <div class="col-12 p-5" style="min-height:100vh;background-color:#210059;">
+          <p class="veryLarge text-center text-white" style="font-weight:600;padding:15px;padding-top:10vh;text-shadow:2px 2px #21005946;">We are the University of Aberdeen's Computing Society</p>
+          <p class="large text-center" style="font-weight:500;color:gainsboro;text-shadow:2px 2px #21005946;">Celebrating and supporting Aberdeen's computing community.</p>
+          <div style="padding-top:10vh;" class="container-fluid;" >
+            <div class="row">
+              <div class="col-xl-4">
+                <p class="text-center mb-3 large" style="font-weight:700;padding-top:20px;"><a href="#what" class="mapLink rounded pt-2 pb-2 ps-3 pe-3" style="background-color:white;white-space:nowrap;">What We Do</a></p>
+              </div>
+              <div class="col-xl-4">
+                <p class="text-center large" style="font-weight:700;padding-top:20px;"><a href="#who" class="mapLink rounded pt-2 pb-2 ps-3 pe-3" style="background-color:white;white-space:nowrap;">Who We Are</a></p> 
+              </div>
+              <div class="col-xl-4">
+                <p class="text-center mb-3 large" style="font-weight:700;padding-top:20px;"><a href="https://www.ausa.org.uk/organisation/abdncs/" class="mapLink  rounded pt-2 pb-2 ps-3 pe-3" style="background-color:white;white-space:nowrap;">Join for Free</a></p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div style="background-color:whitesmoke;border-bottom: solid #EE55A6;" class="p-3 p-xl-5 ">
+        <div class="col-xl-2"></div>
+        <div class="col-sm-12 col-xl-8 shadow-lg p-0 mt-0 bg-white">
+        <div style="background-color:whitesmoke;border-bottom: solid #EE55A6;border-top: solid #EE55A6;" class="p-3 p-xl-5 ">
           <p class="display-3" id="what">What We Do</p>
           <p>We are the University of Aberdeen's Computing Society.</p>
-          <p>Our <a href="constitution.html">constitution</a> sets out the societies' goals.</p>
-          <p>These are:</p>
+          <p>The goals of our society are:</p>
           <ul>
             <li>To provide, support and promote the activities and events for members to improve their computing and technical skills.</li>
             <li>To establish a professional network between the society members, BCS (British Computing Society) member groups and relevant third parties to provide AUCS members more opportunities for professional growth.</li>
@@ -93,6 +113,7 @@
             <li>To bring together members of related courses to socialise and cooperate with each other.</li>
           </ul>
           <br>
+          <p>Or, read our full <a href="constitution.html">constitution</a>.</p>
           <p>Memberships are available for free on <a href="https://www.ausa.org.uk/organisation/abdncs/">AUSA's website <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg></a>. </p>
           <p>Members can access exclusive events, discounts and have a say in our Annual General Meeting.</p>
         </div>
@@ -186,17 +207,16 @@
   <div class="abdnBanner container-fluid">
     <div class="row">
       <div class="col-xl-2"></div>
-      <div class="col-sm-6 col-xl-4 p-3 p-xl-5 pt-3 pb-0" style="min-height:100px;">
+      <div class="col-sm-6 col-xl-4 p-3 p-xl-5 pt-3 pb-0 pb-xl-0" style="min-height:100px;">
         <p class="footText text-white text-sm-start">Aberdeen University Comptuing Society<br>Aberdeen University Students' Association<br>Elphinstone Road<br>Old Aberdeen<br>Aberdeen<br>AB24 3UT<br><a href="mailto:computing@ausa.org.uk">computing@ausa.org.uk</a></p> 
       </div>
-        <div class="col-sm-6 col-xl-4 p-3 p-xl-5 pt-3 pb-0" style="min-height:100px;"> 
+        <div class="col-sm-6 col-xl-4 p-3 p-xl-5 pt-0 pb-0 pb-xl-0" style="min-height:100px;"> 
           <p class="footText text-white text-sm-end">Follow us on:<br><a class="text-white" href="https://www.instagram.com/abdncs/">Instagram</a><br><a class="text-white" href="https://www.facebook.com/abdncs">Facebook</a><br><a class="text-white" href="https://www.linkedin.com/company/abdncs">Linkedin</a><br><br><a href="constitution.html" class="text-white">Society Constitution</a><br><a href="constitution.html#terms" class="text-white">Website Terms of Access</a></p> 
         </div>
       <div class="col-xl-2"></div>
       <div class="col-xl-2"></div>
       <div class="col-xl-8 pt-0 mt-0 p-3 p-xl-5 pb-0" >
         <p class="text-white  p-2 pb-0 mb-0 text-center footText" style="border-top: solid #EE55A6;">Any views or opinions shared on this website do not represent the views of the School of Natural and Computing Sciences at the University of Aberdeen, the Aberdeen University Students' Association, nor any members of staff of the University.</p>  
-        <p class="text-white  p-2 pb-0 mb-0 text-center footText">Image of Sir Duncan Rice Library by <a href="https://commons.wikimedia.org/wiki/File:Sir_Duncan_Rice_Library_2018-04-21.jpg">Frederic Bayer</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons</p>
         <p class="text-white  pt-0 p-2 text-center footText">This website was created with love in Aberdeen, by Loris Giuliani. MMXXIV.</p> 
       </div>
       <div class="col-xl-2"></div>

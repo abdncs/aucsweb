@@ -1,6 +1,7 @@
 h1{font-family: 'Rubik'}
 body{background-color: #210059;}
-.abdnBanner{background-color:#210059}
+.abdntopBanner{background-color:#210059;position:fixed;}
+.abdnBanner{background-color:#210059;}
 .accLink:hover{text-decoration: underline; color:white;}
 .accLink{color:white; text-decoration:none;}
 .mapLink{color:#210059; text-decoration:none;}
@@ -35,9 +36,13 @@ p{font-family: 'Rubik';font-weight:200;}
     .display-5{font-size:2.5em;font-weight:500}
         .display-3{font-size:1.5em;font-weight:500}
         .display-4{font-size:1.5em;font-weight:500;}
-        .display-6{font-size:2;font-weight:300}
+        .display-6{font-size:1.5em;font-weight:300}
         .mainTitle{font-size:6em;}
         .footText{font-size:10px}
+        .nav-link{font-size:1.2em;font-weight:500}
+        .navText{font-size:1.2em;font-weight:500}
+        .large{font-size:2em;font-weight:500;}
+    .veryLarge{font-size:3em;font-weight:500}
     }
 
 
@@ -53,5 +58,9 @@ p{font-family: 'Rubik';font-weight:200;}
     .display-6{font-size:2em;font-weight:300}
     .mainTitle{font-size:6em;}
     .footText{font-size:1em}
+    .nav-link{font-size:1.2em;font-weight:500}
+    .navText{font-size:1.2em;font-weight:500}
+    .large{font-size:3em;font-weight:500;}
+    .veryLarge{font-size:5em;font-weight:500}
 
 }
