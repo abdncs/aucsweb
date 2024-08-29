@@ -80,6 +80,9 @@ p{font-family: 'Rubik';font-weight:200;}
      .sm-view{
         display:none;
      }
+     .mainContent{
+        padding-top:5vh;
+     }
  }
 
 
@@ -92,5 +95,8 @@ p{font-family: 'Rubik';font-weight:200;}
      
      .sm-view{
         display:inline-block;
+     }
+     .mainContent{
+        padding-top:10vh;
      }
  }
